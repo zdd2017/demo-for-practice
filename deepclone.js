@@ -18,4 +18,5 @@ function deepClone(srcObj, newObj){
 			srcObj[k] = newObj[k];
 		}
 	}
+	return newObj;
 }
