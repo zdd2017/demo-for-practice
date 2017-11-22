@@ -8,3 +8,5 @@
 2.mini$(选择器封装)
 
 3.cookie(设置与删除cookie)
+
+4.ajax(ajax封装)
