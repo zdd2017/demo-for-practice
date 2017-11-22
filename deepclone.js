@@ -12,10 +12,10 @@ function deepClone(srcObj, newObj){
 	var newObj = newObj || {};
 	for(var k in srcObj){
 		if(typeof srcObj[k] === 'object'){
-			newObj[k] = newObj[k] instanceof Array ? [] : {};
+			newObj[k] = srcObj[k] instanceof Array ? [] : {};
 			deepClone(srcObj[k], newObj[k]);
 		} else{
-			srcObj[k] = newObj[k];
+			newObj[k] = srcObj[k];
 		}
 	}
 	return newObj;
