@@ -10,3 +10,5 @@
 3.cookie(设置与删除cookie)
 
 4.ajax(ajax封装)
+
+5.放大镜
